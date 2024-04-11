@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API clima e tempo</title>
+
+    <!-- Importando o framework Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <!-- Importando CSS personalizado -->
+    <link rel="stylesheet" media="(max-width: 800px)" href="style.css" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Importando ícones da font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <!-- Icone de marca d´água do aplicativo -->
+    <div class="climeostil">
+      <h1 id="climeos">
+        Clime<i class="fa-solid fa-earth-americas" id="icon"></i>s
+      </h1>
+      <!-- Menu de navegação -->
+      <ul class="nav nav-underline">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="home.html">Home</a>
+        </li>
+        <li class="nav-item2">
+          <a class="nav-link" aria-current="page" href="contato.html">Contato</a>
+        </li>
+        <li class="nav-item3">
+          <a class="nav-link" aria-current="page" href="ajuda.html">Ajuda</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Formulário de Feedback -->
+        <div class="feedback">
+            <section>
+                <form action="https://api.staticforms.xyz/submit" method="post">
+                    <div class="alinhamento">
+                        <h1>Seu feedback</h1>
+                        <label>Nome:</label>
+                        <input type="text" name="name" placeholder="Seu nome..." autocomplete="off" required>
+                        <label>Email:</label>
+                        <input type="email" name="email" placeholder="Seu email..." autocomplete="off" required>
+                        <label>Seu feedback:</label>
+                        <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem..."
+                            autocomplete="off" required></textarea>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+
+                        <input type="hidden" name="accessKey" value="36444b2e-454a-4cd1-8cff-05237de25691">
+                        <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
+                    </div>
+                </form>
+        </div>
+    </div>
+
+</body>
+
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+<!-- Font Awesome JS -->
+
+<script src="https://kit.fontawesome.com/7fc24fef46.js" crossorigin="anonymous"></script>
+
+</html>
