@@ -18,6 +18,8 @@
 
 **- Aguarde alguns segundos enquanto a aplicação busca as informações sobre o clima da cidade inserida.**
 
+**- !ESSE PROJETO ESTÁ SOB O `.gitignore` DEVE SER ADICIONADO UMA NOVA API PARA O APLICATIVO FUNCIONAR! **
+
 # 🏢 Estrutura do Projeto
 
 **-  `index.html:`  O arquivo HTML principal da aplicação.**
